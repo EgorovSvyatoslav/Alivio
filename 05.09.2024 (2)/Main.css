@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+
+.header{
+    padding: 17px 0;
+    font-family: Lato;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrap{
+    display: flex;
+}
+.header__link{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+.header__link{
+    margin-right: 70px;
+}
+.btn{
+    color:#fff;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #01996D;
+    padding: 13px 50px;
+    border-radius: 4px;
+    border: none;
+}
+.btn white{
+    color:black;
+    background-color: #fff;
+}
+/* Main */
+.Main{
+    background: url('../05.09.2024/Logo/download.jpg') ;
+}
+.Main_info{
+    max-width: 440px;
+}
+.main_title{
+    color: #01996D;
+    font-weight: 900;
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.main_text{
+    color: #484848;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+/* Steps */
+
+.steps{
+    padding: 169px 0 255px 0;
+}
